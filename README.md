@@ -20,15 +20,15 @@ This project is an Assembly implementation of a matrix solver using Gaussian eli
 ## Compilation & Execution
 1. Assemble the source code:
    ```sh
-   nasm -f elf64 matrix_solver.asm -o matrix_solver.o
+   nasm -f elf64 x86.asm -o x86.o
    ```
 2. Link with GCC:
    ```sh
-   gcc matrix_solver.o -o matrix_solver -no-pie
+   gcc x86.o -o x86 -no-pie
    ```
 3. Run the executable:
    ```sh
-   ./matrix_solver
+   ./x86
    ```
 
 ## Functions
@@ -56,6 +56,6 @@ This project is an Assembly implementation of a matrix solver using Gaussian eli
 - `remainder` – A temporary storage variable for vectorized operations.
 
 ## Author
-[Your Name]
+Mehrshad Dehghani
 
 
