@@ -55,11 +55,6 @@ This project is an Assembly implementation of a matrix solver using Gaussian eli
 - `res` – The solution vector.
 - `remainder` – A temporary storage variable for vectorized operations.
 
-## Limitations
-- Only works for square matrices (NxN).
-- Requires AVX-compatible CPU.
-- Does not handle cases where the system has infinitely many solutions.
-
 ## Author
 [Your Name]
 
